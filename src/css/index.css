@@ -1,0 +1,23 @@
+
+.mosaicpic-wrapper-items {
+    position:   absolute;
+    background-image:   url("../img/loader.gif");
+    background-position:    center center;
+    background-repeat:  no-repeat;
+}
+
+
+.mosaicpic-wrapper-items div {
+    height: 100%;
+    width:  100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mosaicpic-wrapper-items:hover div {
+    background-color:   rgba(0,0,0,0.7);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-image:   url("../img/lupa.png");
+}
+
